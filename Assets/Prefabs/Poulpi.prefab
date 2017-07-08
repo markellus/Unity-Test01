@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 212397401577538732}
   - component: {fileID: 61143280100454864}
   - component: {fileID: 50642386036941802}
-  - component: {fileID: 114230727972369132}
   - component: {fileID: 114186577659912094}
   - component: {fileID: 114539748491847978}
+  - component: {fileID: 114807259214675946}
   m_Layer: 0
   m_Name: Poulpi
   m_TagString: Untagged
@@ -133,19 +133,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 1
   isEnemy: 1
---- !u!114 &114230727972369132
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1163883727593476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1647c29a1c6222448788084da672f7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {x: 10, y: 10}
-  direction: {x: -1, y: 0}
 --- !u!114 &114539748491847978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -157,6 +144,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f401f59794e34d448ac9ce26998b9e0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114807259214675946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1163883727593476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1647c29a1c6222448788084da672f7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 5, y: 5}
+  direction: {x: -1, y: 0}
 --- !u!114 &114983256521035572
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -41,8 +41,11 @@ TagManager:
   - name: Background
     uniqueID: 4161231645
     locked: 0
-  - name: Platforms
-    uniqueID: 1831949157
+  - name: Background-Rocks
+    uniqueID: 2462002269
+    locked: 0
+  - name: MiddleGround
+    uniqueID: 1923774367
     locked: 0
   - name: Enemies
     uniqueID: 2964614805
