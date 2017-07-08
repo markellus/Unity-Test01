@@ -25,7 +25,6 @@ GameObject:
   - component: {fileID: 114230727972369132}
   - component: {fileID: 114186577659912094}
   - component: {fileID: 114539748491847978}
-  - component: {fileID: 114914948607116440}
   m_Layer: 0
   m_Name: Poulpi
   m_TagString: Untagged
@@ -41,6 +40,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4127158915393454}
+  - component: {fileID: 114983256521035572}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -54,13 +54,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1700337784105326}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: -5.4544725, y: 0, z: 0}
   m_LocalScale: {x: 3.3333333, y: 3.3333333, z: 1}
   m_Children: []
   m_Father: {fileID: 4654752362689674}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!4 &4654752362689674
 Transform:
   m_ObjectHideFlags: 1
@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1163883727593476}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalPosition: {x: 13.73, y: 0.82, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 4127158915393454}
@@ -157,12 +157,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f401f59794e34d448ac9ce26998b9e0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114914948607116440
+--- !u!114 &114983256521035572
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1163883727593476}
+  m_GameObject: {fileID: 1700337784105326}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 922b4a5d4c0423c4a893cef73bc6cc26, type: 3}
